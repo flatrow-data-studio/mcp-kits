@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.flatrow-data-studio/hotel-and-product-prices",
+  "title": "Hotel & product prices: Booking.com, Google Hotels, Airbnb, Amazon, eBay",
+  "description": "Hotel and product prices: Booking.com, Google Hotels, Expedia, Agoda, Airbnb, Amazon, Walmart, eBay.",
+  "repository": {
+    "url": "https://github.com/flatrow-data-studio/mcp-kits",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/myth84",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=myth84/google-hotels-scraper,myth84/booking-hotels-scraper,myth84/booking-hotel-details-scraper,myth84/booking-reviews-scraper,myth84/expedia-hotels-scraper,myth84/agoda-hotels-scraper,myth84/airbnb-listings-scraper,myth84/airbnb-listing-details-scraper,myth84/airbnb-reviews-scraper,myth84/amazon-search-scraper,myth84/walmart-search-scraper,myth84/ebay-search-scraper,myth84/etsy-search-scraper,myth84/aliexpress-search-scraper,myth84/aliexpress-product-scraper,myth84/marketplace-price-compare-scraper",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <Apify API token> (or sign in with OAuth)",
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

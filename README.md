@@ -16,6 +16,10 @@ Each kit contains:
 - a system prompt of about 900 words: tools, real example inputs, output columns, honest limits and cost;
 - four test prompts to check the setup.
 
+## All 16 Actors in one server
+
+The official [MCP Registry](https://registry.modelcontextprotocol.io) lists the whole set as `io.github.flatrow-data-studio/hotel-and-product-prices` ([server.json](server.json)): one remote server with the 16 Actors as tools, for registry-aware clients and directories. The kits above pin six Actors each and add a system prompt, which works better for a dedicated agent.
+
 You need an Apify account (the Free plan includes monthly credit). The Actors are paid per result and collect no personal data.
 
 ## More
