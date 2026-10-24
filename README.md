@@ -7,7 +7,7 @@ Ready-made configurations of the [Apify MCP server](https://mcp.apify.com) for A
 | Kit | Tools | Ask it |
 |---|---|---|
 | [Hotel price agent](hotel-price-agent.md) | Booking.com, Google Hotels, Agoda, Expedia, Airbnb search, Airbnb listing pages | "Compare hotel prices in Lisbon next weekend on Booking.com, Agoda and Google Hotels" |
-| [E-commerce price agent](ecommerce-price-agent.md) | Price comparison across AliExpress, eBay, Walmart and Etsy, plus Amazon, AliExpress, eBay, Walmart and Etsy search | "What is the cheapest marketplace for wireless earbuds under $50?" |
+| [E-commerce price agent](ecommerce-price-agent.md) | Price comparison across Amazon, AliExpress, eBay, Walmart and Etsy in one run, plus one search tool per marketplace | "What is the cheapest marketplace for wireless earbuds under $50?" |
 
 Each kit contains:
 
